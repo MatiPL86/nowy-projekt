@@ -30,4 +30,36 @@
     justify-content: flex-end;
   }
 
+  .content {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    text-align: left;
+    /*margin: 10px;*/
+  }
   
+  .footer {
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    border: 2px solid;
+  }
+
+  h2 {
+    background: lemonchiffon;
+    border: 1px thick lavenderblush;
+    margin-left: 20px;
+    padding: 5px;
+  }
+
+  h1 {
+    margin: 0 auto;
+    text-align: justify;
+    word-spacing: 1;
+  }
+  p {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 10px;
+  }
