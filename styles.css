@@ -26,15 +26,22 @@
     width: 100px;
   }
 
+  div.navbar :hover {
+    background-color: #f3b00c;
+  }
+
   .header {
     background-color: black;
     padding: 20px;
     margin: 0 auto;
   }
   
-  .menu {
+  div.menu {
     background-color: whitesmoke;
     width: 25%;
+    border: none;
+    text-align: left;
+    font-size-adjust: 20px;
     
   }
 
