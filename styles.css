@@ -82,24 +82,30 @@
     margin-left: 10px;
   }
 
-  .content2 {
-    margin: 15px;
-    height: 734px;
-    border: 3px salmon;
-    position: relative;
-  }
-
   .flex-container {
+    margin: 0 auto;
     display: -webkit-flex;
     display: flex;
-    width: 400px;
-    height: 250px;
-    background-color: lightgrey;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    background-color: transparent;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
   .flex-item {
-    background-color: cornflowerblue;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+    background-color: rgb(223, 228, 231);
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: left !important;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 4px;
 }
