@@ -2,8 +2,13 @@
     box-sizing: border-box;
   }
 
+  body {
+    width: 100%;
+    background-image: url("programowanie-2.jpg");
+  }
+
   .navbar {
-    width: 74%;
+    width: 75%;
     height:auto;
     background-color: whitesmoke;
     margin: 0 auto;
@@ -31,7 +36,7 @@
   }
 
   .header {
-    background-color: black;
+    background-color:transparent;
     padding: 20px;
     margin: 0 auto;
   }
@@ -84,5 +89,20 @@
     margin: 15px;
     height: 734px;
     border: 3px salmon;
-    background-image: url("HEADER.jpg");
+    position: relative;
   }
+
+  .flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 400px;
+    height: 250px;
+    background-color: lightgrey;
+}
+
+  .flex-item {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
