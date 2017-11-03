@@ -1,10 +1,27 @@
+@media (max-width: 992px) {
+  div.navbar {
+    width: 50%;
+  }
+  body {
+    width: 25%;
+  }
+  div.menu {
+    width: 50%;
+  }
+  div.flex-item {
+    width: 50%;
+  }
+}
+
 * {
     box-sizing: border-box;
   }
 
+  
   body {
     width: 100%;
     background-image: url("programowanie-2.jpg");
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
 
   button {
