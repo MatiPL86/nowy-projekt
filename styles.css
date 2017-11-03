@@ -56,6 +56,10 @@
     border: none;
     text-align: left;
     word-wrap: break-word;
+    font-size: 20px;
+    letter-spacing: 4px;
+    word-break: keep-all;
+    
   }
 
   .content {
@@ -71,6 +75,7 @@
     justify-content: center;
     background-color: brown;
     border: 2px solid;
+    margin-right: 20px;
   }
 
   h1 {
@@ -93,7 +98,7 @@
     margin: 0 auto;
     display: -webkit-flex;
     display: flex;
-    width: auto;
+    width: 100%;
     height: auto;
     justify-content: center;
     background-color: transparent;
