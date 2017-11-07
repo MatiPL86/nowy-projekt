@@ -8,14 +8,14 @@
   }
 
   div.flex-item {
-    width: 60%;
+    width: 49%;
   }
 }
 
 @media (min-width: 992px) {
   div.flex-item {
     width: 500px;
-    height: 600px;
+    height: auto;
   }
 }
 
@@ -40,6 +40,11 @@
   
   a.navbar-brand {
     text-align: center;
+    font-size: 22px;
+  }
+
+  .navbar-nav > a.nav-link {
+    color: rgb(234, 14, 14);
   }
 
   a {
@@ -49,6 +54,7 @@
     background-color: rgb(7, 6, 6);
     border: 2px solid rgba(14, 13, 13, 0.486);
     border-radius: 5px;
+    color: rgba(249, 3, 3, 0.9);
   }
 
 
@@ -98,6 +104,7 @@
     align-content: stretch;
     text-align: left;
     margin-left: 10px;
+    font-size: 25px;
   }
 
   .flex-container {
@@ -112,6 +119,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: stretch;
+    
 }
 
   .flex-item {
@@ -128,4 +136,5 @@
     margin: 15px;
     border: 2px solid black;
     border-radius: 4px;
+    
 }
