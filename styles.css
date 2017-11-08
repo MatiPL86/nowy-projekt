@@ -8,13 +8,13 @@
   }
 
   div.flex-item {
-    width: 49%;
+    width: 48%;
   }
 }
 
 @media (min-width: 992px) {
   div.flex-item {
-    width: 500px;
+    width: 350px;
     height: auto;
   }
 }
@@ -105,7 +105,7 @@
     align-content: stretch;
     text-align: left;
     margin-left: 10px;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .flex-container {
