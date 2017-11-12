@@ -1,6 +1,7 @@
 body {
     width: 100%;
-    background-image: url("programowanie-2.jpg");
+    background-color: lightslategray;
+    /*background-image: url("programowanie-2.jpg");*/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
 
@@ -52,10 +53,20 @@ a.nav-link {
 
 section.carousel {
     display: initial;
-    margin: 0 auto;
     border: 1px solid rgba(20, 19, 19, 0.479);
     border-radius: 5px;
     color: rgba(248, 233, 233, 0.9);
+}
+
+.w-100 {
+width: 100% !important;
+height: 500px;
+}
+
+.carousel-caption > p {
+    color: black !important;
+    font-size: 22px;
+    text-shadow:5px 5px 3px rgb(250, 116, 7);
 }
 
 .btn-info {
@@ -64,13 +75,14 @@ section.carousel {
 
 .flex-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-flow: row wrap;
     flex-wrap: wrap;
 }
 
 article.flex-item {
     margin: 0 auto;
+    padding: 7px;
     word-wrap: break-word;
     background-color: rgb(223, 228, 231);
     width: 33%;
@@ -93,13 +105,13 @@ img  {
 
   @media (max-width: 992px) {
       article.flex-item {
-          width: 55%;
+          width: 65%;
       }
   } 
 
   @media (min-width: 993px) {
     article.flex-item {
-      width: 300px;
+      width: 27%;
       height: auto;
     }
   }
