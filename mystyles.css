@@ -172,7 +172,7 @@ img  {
     height: auto;
   }
 
-  /* Strona "Services" */
+  /* ----------Strona "Services"-------- */
 
   main.container  {
       max-width: 100%;
@@ -183,8 +183,11 @@ img  {
       flex-direction: column;
   }
 
+article.heading {
+    display: block;
+}
+
 main.container h1 {
-    padding: 0 0 30px 0;
     margin: 20px;
     margin-left: 40px;
     line-height: normal;
