@@ -1,4 +1,5 @@
 body {
+    display: block;
     width: 100%;
     background-color: lightslategray;
     /*background-image: url("programowanie-2.jpg");*/
@@ -6,14 +7,14 @@ body {
   }
 
 .navbar-nav {
-    display:inline-flex;
+    display: flex;
     margin: 0 auto;
     margin-top: 5px;
     color: rgba(248, 233, 233, 0.9);
 }
 
 .bg-faded {
-    background-color: rgba(247, 247, 247, 0.42);
+    background-color: rgba(106, 209, 209, 0.705);
     margin: 0 auto;
 }
 
@@ -31,6 +32,16 @@ a.navbar-brand {
     font-size: 18px;
     color: orange;
 }
+
+a :hover {
+    background-color: yellowgreen;
+}
+
+.navbar-toggler-right {
+    position: relative;
+    margin: 0 auto;
+}
+
 
 button.navbar-toggler {
     background-color: rgba(17, 14, 14, 0.835);
@@ -53,7 +64,8 @@ a.nav-link {
 }
 
 section.carousel {
-    display: initial;
+    margin: 0 auto;
+    width: 100%;
     border: 1px solid rgba(20, 19, 19, 0.479);
     border-radius: 5px;
     color: rgba(248, 233, 233, 0.9);
@@ -75,6 +87,7 @@ height: 500px;
 }
 
 .flex-container {
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
@@ -82,6 +95,7 @@ height: 500px;
 }
 
 article.flex-item {
+    max-width: 100%;
     margin: 0 auto;
     padding: 7px;
     word-wrap: break-word;
@@ -97,6 +111,46 @@ article.flex-item {
     border: 2px solid black;
     border-radius: 4px;
     
+}
+
+
+.column-item {
+    width: 200px;
+    height: 300px;
+    background-color: blue;
+    float: left;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    background-color: gray;
+}
+
+.content_store {
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.content_store img {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 650px;
+    height: auto;
+}
+
+footer.container_footer {
+    width: 100%;
+    min-height: 60px;
+    height: auto;
+    border: 3px solid black;
+    display: block;
+    background-color: lightcyan;
+    text-align: center;
+    line-height: -3px;
+    padding: 14px;
 }
 
 img  {
