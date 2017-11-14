@@ -8,18 +8,22 @@ body {
 
 /*---NAVBAR----*/
 
-.navbar-nav {
+div.myNavbar {
     display: flex;
-    height: auto;
-    padding: 5px;
+    width: 100%;
+    height: 65px;
     margin: 0 auto;
-    color: rgba(248, 233, 233, 0.9);
+}
+
+div.navbar-nav {
+    margin: 0 auto;
 }
 
 .bg-faded {
     background-color: rgba(106, 209, 209, 0.705);
+    width: 100%;
     margin: 0 auto;
-    height: 60px;
+    height: auto;
 }
 
 .collapse {
@@ -69,8 +73,8 @@ a.nav-link {
 
 /* ----KARUZELA---- */
 
-section.carousel {
-    margin: 0 auto;
+.carousel {
+    margin: 3 auto;
     width: 100%;
     border: 1px solid rgba(20, 19, 19, 0.479);
     border-radius: 5px;
@@ -184,6 +188,11 @@ img  {
       background-color: inherit;
       display: flex;
       flex-direction: column;
+  }
+
+  a.navbar-brand img {
+    max-width: 100%;
+    height: auto;
   }
 
 article.heading {
