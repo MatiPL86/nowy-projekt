@@ -254,6 +254,11 @@ a.label {
     border: 0;
 }
 
+button.btn-warning {
+    margin-left: 6px;
+    margin-bottom: 6px;
+}
+
 /* ----@media queries----*/
 
   @media (max-width: 992px) {
