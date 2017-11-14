@@ -19,7 +19,7 @@ div.navbar-nav {
 }
 
 .bg-faded {
-    background-color: rgba(106, 209, 209, 0.705);
+    background-color: rgba(105, 99, 99, 0.808);
     width: 100%;
     margin: 0 auto;
     height: auto;
@@ -32,11 +32,9 @@ div.navbar-nav {
 
 a.navbar-brand {
     max-width: 100%;
-    height: auto;
 }
 
 .nav-item.nav-link {
-    font-size: 14px;
     color: orange;
 }
 
@@ -58,16 +56,15 @@ button.navbar-toggler {
     border-color: orangered !important;
 }
 
-a.nav-link {
+.nav-link {
     margin: 15px;
-    margin-top: 5px;
     text-align: center;
-    line-height: auto;
-    width: 150px;
+    width: 100px;
     height: auto;
     border: 2px solid rgba(155, 8, 8, 0.911);
     border-radius: 5px;
     color: rgba(248, 233, 233, 0.9);
+    padding: 1px;
 }
 
 /* ----KARUZELA---- */
@@ -188,6 +185,8 @@ img  {
       display: flex;
       flex-direction: row;
       justify-content: center;
+      flex-flow: row wrap;
+      flex-wrap: wrap;
   }
 
   a.navbar-brand img {
@@ -205,6 +204,14 @@ main.container h1 {
 
 /*----- KOLUMNY NA STRONIE----*/
 
+img.rightColumn {
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
 
 .rightColumn {
     margin-top: 25px;
@@ -217,6 +224,7 @@ main.container h1 {
 .leftColumn {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
     width: 45%;
     margin-top: 20px;
 }
@@ -280,6 +288,12 @@ button.btn-warning {
 
       .navbar-brand img {
        display: none;
+    }
+    .leftColumn {
+        width: 65%;
+    }
+    .rightColumn{
+        width: 65%;
     }
   } 
 
