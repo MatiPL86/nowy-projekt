@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;             /* mowi przegladarce zeby pozbyla sie dziedziczonych styli dla wszystkich elementów */
-    border: 0;
-}
+
 
 body {
     width: 100%;
@@ -38,6 +34,29 @@ a.navbar-brand {
     max-width: 100%;
 }
 
+.navbar-toggler-right {
+    position: relative;
+    margin: 0 auto;
+}
+
+
+button.navbar-toggler {
+    background-color: rgba(17, 14, 14, 0.835);
+    width: 60px;
+    height: auto;
+    background-color: orange;
+    border-color: orangered !important;
+}
+
+.nav-link {
+    margin: 15px;
+    text-align: center;
+    width: 100px;
+    height: auto;
+    font-size: 170%;
+    color: rgba(248, 233, 233, 0.9);
+    padding: 1px;
+}
 
 /*GALLERY*/
 
@@ -48,11 +67,14 @@ a.navbar-brand {
   #photos img {
     width: 30%;
     float: left;
-    display: block;
+    display: flex;
     margin: 2px;
   }
   
   ul {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
     list-style: none;
     margin: 0px auto;
     padding: 10px;
@@ -85,3 +107,12 @@ a.navbar-brand {
   #photo-gallery {
     width: 100%;
   }
+
+  @media (max-width: 992px) {
+    #photo-gallery {
+        width: 100%;
+    }
+    #photos img {
+        width: 100%;
+    }
+}
