@@ -11,12 +11,14 @@ body {
 }
 
 div.myNavbar {
-    width: auto;
+    display: flex;
+    float: right;
+    width: 100%;
     height: auto;
+    margin: 0 auto;
 }
 
-nav.navbar {
-    background-color: black;
+div.navbar-nav {
     margin: 0 auto;
 }
 
@@ -27,10 +29,15 @@ nav.navbar {
     height: auto;
 }
 
-.nav-link.active {
-    color: white !important;
-    font-size: 120%;
+.collapse {
+    margin: 0 auto;
+    text-align: center;
 }
+
+a.navbar-brand {
+    max-width: 100%;
+}
+
 
 /*GALLERY*/
 
