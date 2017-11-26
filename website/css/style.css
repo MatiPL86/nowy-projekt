@@ -7,6 +7,7 @@ body {
 }
 /*NAVBAR*/
 div.myNavbar {
+    position: relative;
     display: table;
     float: right;
     width: 100%;
@@ -16,6 +17,17 @@ div.myNavbar {
 
 div.navbar-nav {
     margin: 0 auto;
+    text-align: center;
+}
+
+
+.navbar-collapse.collapse {
+    text-align: right;
+}
+
+.navbar-collapse.collapse.show {
+    margin: 0 auto;
+    text-align: center;
 }
 
 .bg-faded {
@@ -26,10 +38,6 @@ div.navbar-nav {
     z-index: 1000;
 }
 
-.collapse {
-    margin: 0 auto;
-    text-align: center;
-}
 
 .navbar-brand img {
     width: 70%;
@@ -50,30 +58,30 @@ button.navbar-toggler {
     border-color: orangered !important;
 }
 
-.nav-link {
-    margin: 15px;
+a.nav-item.nav-link.active {
     text-align: center;
     width: 100px;
     height: auto;
-    font-size: 160%;
-    font-weight: lighter;
+    font-size: 140%;
+    font-weight: normal;
     color: rgba(14, 12, 12, 0.972) !important;
-    padding: 1px;
+    padding: 10px;
+    margin: 10px;
 }
 
-a.nav-item.nav-link.active {
-    width: 120px;
-    margin-left: 10px;
-}
 
 
 a.nav-item.nav-link.active:hover {
+    display: inline-block;
     width: auto;
-    font-size: 210%;
+    height: auto;
+    font-size: 190%;
     color: rgb(226, 216, 216) !important;
     background-color: orange;
     border-radius: 15px;
+    transition-delay: 0.4s;
 }
+
 
 /*end NAVBAR*/
 
