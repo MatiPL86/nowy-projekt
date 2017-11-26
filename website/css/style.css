@@ -56,9 +56,25 @@ button.navbar-toggler {
     width: 100px;
     height: auto;
     font-size: 160%;
-    color: rgba(248, 233, 233, 0.9);
+    font-weight: lighter;
+    color: rgba(14, 12, 12, 0.972) !important;
     padding: 1px;
 }
+
+a.nav-item.nav-link.active {
+    width: 120px;
+    margin-left: 10px;
+}
+
+
+a.nav-item.nav-link.active:hover {
+    width: auto;
+    font-size: 210%;
+    color: rgb(226, 216, 216) !important;
+    background-color: orange;
+    border-radius: 15px;
+}
+
 /*end NAVBAR*/
 
 /*GALLERY*/
