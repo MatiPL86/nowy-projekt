@@ -108,6 +108,111 @@ button.navbar-toggler {
     width: 100%;
   }
 
+ /* ---BOXY POD KARUZELĄ--- */
+
+.btn-info {
+    margin: 0 auto;
+}
+
+.flex-container {
+    width: 100%;
+    float: left;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+}
+
+article.flex-item {
+    display: table-column;
+    width: 30%;
+    padding: 7px;
+    background-color: rgb(223, 228, 231);
+    height: auto;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 4px;
+    
+}
+
+article.flex-item h1 {
+    padding: 10px;
+    font-size: 180%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+aside {
+    width: 100%;
+    height: auto;
+    left: 26px;
+    right: 5px;
+
+}
+
+aside p1 {
+    font-size: 120%;
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.flex-item img {
+    display: block;
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+/* ---BOXY POD KARUZELĄ END--- */
+
+/* button info*/
+
+.btn-info {
+    margin-left: 6px;
+    margin-bottom: 6px;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn-info span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 1.5s;
+  }
+  
+  .btn-info span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 20px;
+    transition: 0.5s;
+  }
+  
+  .btn-info:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn-info:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  /* button info END*/
+
+
+/* button info animated END*/
+
   @media (max-width: 992px) {
     #photo-gallery {
         width: 100%;
@@ -117,5 +222,8 @@ button.navbar-toggler {
     }
     .navbar-brand img {
         display: none;
+    }
+    article.flex-item {
+        width: 65%;
     }
 }
