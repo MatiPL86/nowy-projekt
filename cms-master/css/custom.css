@@ -1,4 +1,6 @@
 /* Tu dodawaj style */
+
+/* ROTATOR */
 .demo-1 .sl-slider-wrapper {
 	position: absolute;
 	width: 100%;
@@ -66,7 +68,7 @@
 /* Custom navigation arrows */
 
 .nav-arrows span {
-	position: absolute;
+	position: relative;
 	z-index: 2000;
 	top: 50%;
 	width: 40px;
@@ -416,6 +418,112 @@
 	-ms-animation: fadeOut 1s linear both;
 	animation: fadeOut 1s linear both;
 }
+
+/* ROTATOR END */
+
+
+/* ---BOXY POD KARUZELĄ--- */
+
+.btn-info {
+    margin: 0 auto;
+}
+
+
+.flex-container {
+    position: static;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+article.flex-item {
+    display: table-column;
+    padding: 7px;
+    background-color: rgb(233, 110, 29);
+    height: auto;
+    margin: 15px;
+    border-radius: 4px;
+    
+}
+
+article.flex-item h1 {
+    padding: 10px;
+    font-size: 180%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+aside {
+    width: 100%;
+    height: auto;
+    left: 26px;
+    right: 5px;
+
+}
+
+aside p1 {
+    font-size: 120%;
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.flex-item img {
+    display: block;
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+/* ---BOXY POD KARUZELĄ END--- */
+
+/* button info*/
+
+.btn-info {
+    margin-left: 6px;
+    margin-bottom: 6px;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn-info span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 1.5s;
+  }
+  
+  .btn-info span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 20px;
+    transition: 0.5s;
+  }
+  
+  .btn-info:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn-info:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  /* button info END*/
+
+
+
 @-webkit-keyframes roll{
 	0% {-webkit-transform: translateX(500px) rotate(360deg);}
 	100% {-webkit-transform: translateX(0px) rotate(0deg);}
