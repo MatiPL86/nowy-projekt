@@ -2,8 +2,8 @@
 <html lang="pl">
 
 <head>
-
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -13,24 +13,32 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom fonts for this template -->
+	<!-- Custom fonts for this template -->
+	
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- Roratator style -->
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
   <link rel="stylesheet" type="text/css" href="css/custom-rotator.css" />
-  <link rel='stylesheet' href='css/unite-gallery.css' type='text/css' />
-  <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+  <script src="js/modernizr.custom.79639.js"></script>
   <noscript>
       <link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
   </noscript>
+
+  <!-- Gallery style -->
+	<link rel="stylesheet" type="text/css" href="css/unite-gallery.css" />
+	<link rel="stylesheet" href="css/tab-style.css">
+		
+
+  <!-- Core style -->
   <link href="css/style.min.css" rel="stylesheet">
-  <!-- #Tu dodawaj style tylko do custom -->
+
+  <!-- Custom Mateusz -->
   <link href="css/custom.css" rel="stylesheet">
-
-
 </head>
 
 <body id="page-top">
@@ -70,11 +78,8 @@
 
     <!-- ROTATOR -->
     <div class="demo-2">
-
       <div id="slider" class="sl-slider-wrapper">
-
         <div class="sl-slider">
-
           <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
             <div class="sl-slide-inner">
               <div class="bg-img bg-img-1"></div>
@@ -133,8 +138,8 @@
 
       </div>
       <!-- /slider-wrapper -->
-
     </div>
+    <!-- /ROTATOR -->
 
     <div class="row">
       <div class="col-lg-8 mx-auto">
@@ -202,7 +207,31 @@
       <div class="col-lg-8 mx-auto">
         <h1>Raty</h1>
         <div>
-          #Tu umieść treść z pliku raty
+	<!-- Raty  -->
+	<div id="body">
+		<div class="out-wrap">
+		<ul id="tabs" class="nav nav-tabs" role="tablist">
+			<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+			<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+			<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+			<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+			<li role="presentation"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
+			<li role="presentation"><a href="#foryou" aria-controls="foryou" role="tab" data-toggle="tab">For You</a></li>
+		</ul>
+	
+		<div class="tab-content">
+			<div role="tabpanel" class="tab-pane active" id="home">Lorem ipsum dolor sit amet, id pede etiam, ultricies nunc torquent luctus, vel vivamus, pede est interdum lectus ligula sit, vel egestas volutpat aptent aliquam. Sed luctus egestas. Placerat turpis rutrum maecenas, sodales viverra ab, purus consectetuer ut tincidunt lobortis massa. Sit vel, duis mi metus et felis egestas, dis integer vitae, feugiat consectetuer elit, natoque lacus leo volutpat donec quam bibendum. Felis mauris.</div>
+			<div role="tabpanel" class="tab-pane" id="profile">Nulla ipsum elit, eleifend sed. Fermentum sit, consequat commodo vel massa integer in wisi, quam libero, mollis tortor dapibus porttitor, euismod nonummy duis et rutrum et nibh. Ullamcorper in at, justo eu amet id sed, vel amet ut et velit velit, suscipit ultricies. Lectus quis proin sodales. Eu donec etiam vestibulum id lectus nascetur, mauris amet pellentesque posuere sit vitae, dolor consectetur nec varius, vitae sed quis dolor commodo lacus. Rhoncus platea risus omnis aenean, rhoncus nibh eget turpis eros enim, magna vestibulum enim minima habitant malesuada porttitor, nibh donec magna lorem nunc vitae.</div>
+			<div role="tabpanel" class="tab-pane" id="messages">Diam vulputate interdum ac et eget, et interdum proin, nec aliquet a. Vitae lobortis elit morbi, pede mi nullam lacus magna consectetuer lobortis, hendrerit amet nulla et rutrum, et per a in, integer lectus nunc ac dignissim sit. Vestibulum dignissim placerat, sed arcu vitae, quis hac ultrices at, fringilla nullam ut. Tempor cursus quam sit, tempus iaculis enim dolor. Platea pede nullam quis, urna aut tellus est, nibh feugiat tristique metus nec viverra vestibulum, nulla et ut mauris dui. Neque tortor tristique, volutpat velit et. Ipsum sit tellus eos, morbi scelerisque suspendisse, luctus in animi nam diam, fusce metus morbi. Pretium lacus a phasellus, donec pede duis eget vestibulum in. Vivamus ac nullam feugiat quaerat pharetra.</div>
+			<div role="tabpanel" class="tab-pane" id="settings">Elit in gravida a sem pellentesque sodales, cursus turpis turpis, vitae nec urna. Feugiat id ultricies interdum metus, felis wisi, ornare wisi orci proin amet lacinia adipiscing. Sollicitudin donec quis libero sit, euismod lorem ornare ante lacus hendrerit vitae, parturient aliquet pellentesque quam eu, eu hendrerit rhoncus odio, urna etiam ut purus. Nonummy elit ultricies saepe adipiscing nam quam, magna dis, molestie risus metus pretium nunc, et cras tempus dignissim duis arcu nec, mauris laboriosam suspendisse. In mi vivamus, tempor sit sed congue. A vehicula vel nulla hendrerit bibendum, metus pretium curabitur elementum at, pede congue sodales risus rutrum sed, vel imperdiet suspendisse recusandae conubia.</div>
+			
+					<div role="tabpanel" class="tab-pane" id="about">itae, parturient aliquet pellentesque quam eu, eu hendrerit rhoncus odio, urna etiam ut purus. Nonummy elit ultricies saepe adipiscing nam quam, magna dis, molestie risus metus pretium nunc, et cras tempus dignissim duis arcu nec, mauris laboriosam suspendisse. In mi vivamus, tempor sit sed congue. A vehicula vel nulla hendrerit bibendu.</div>
+			
+			<div role="tabpanel" class="tab-pane" id="foryou">Terdum proin, nec aliquet a. Vitae lobortis elit morbi, pede mi nullam lacus magna consectetuer lobortis, hendrerit amet nulla et rutrum, et per a in, integer lectus nunc ac dignissim sit. Vestibulum dignissim placerat, sed arcu vitae, quis hac ultrices at, fringilla nullam ut. Tempor cursus quam sit, tempus iaculis enim dolor. Platea pede nullam quis, urna aut tellus est, nibh feugiat tristique metus nec viverra vestibulum, nulla et ut mauris dui. Neque tortor tristique, volutpat velit et. Ipsum sit tellus eos, morbi scelerisque suspendisse, luctus in animi nam diam, fusce metus morbi. Pretium lacus a phasellus, donec pede duis eget vestibulum ac.</div>
+		</div>
+		</div>
+	</div>
+	<!-- Raty END -->
         </div>
 
       </div>
@@ -212,360 +241,411 @@
   <!-- Realizacje Section -->
   <section id="realizacje" class="content-section text-center">
     <div class="container">
-      
-        <h1>Realizacje</h1>
-        <div>
-  <!-- GALLERY START -->
-  <h2>Tiles - Nested</h2>
-	
-    <div id="gallery">
 
-      <a href="#">
-        <img alt="Lemon Slice"
-             src="images/thumbs/tile1.jpg"
-             data-image="images/big/tile1.jpg"
-             data-description="This is a Lemon Slice">
-        </a>
+      <h1>Realizacje</h1>
+      <!-- GALLERY START -->
+      <div id="gallery" style="display:none;">
+        <a href="#">
+    		<img alt="Lemon Slice"
+    		     src="images/thumbs/tile1.jpg"
+    		     data-image="images/big/tile1.jpg"
+    		     data-description="This is a Lemon Slice"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Keys"
-          src="images/thumbs/tile3.jpg"
-          data-image="images/big/tile3.jpg"
-          data-description="Those are keys">
-      </a>
+        <a href="#">
+    		<img alt="Peppers"
+    		     src="images/thumbs/tile2.jpg"
+    		     data-image="images/big/tile2.jpg"
+    		     data-description="Those are peppers"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Friuts in cup"
-          src="images/thumbs/tile4.jpg"
-          data-image="images/big/tile4.jpg"
-          data-description="Those are friuts in a cup">
-      </a>
+        <a href="#">
+    		<img alt="Keys"
+    		     src="images/thumbs/tile3.jpg"
+    		     data-image="images/big/tile3.jpg"
+    		     data-description="Those are keys"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Yellow Flowers"
-          src="images/thumbs/tile5.jpg"
-          data-image="images/big/tile5.jpg"
-          data-description="Those are yellow flowers">
-      </a>
+        <a href="#">
+    		<img alt="Friuts in cup"
+    		     src="images/thumbs/tile4.jpg"
+    		     data-image="images/big/tile4.jpg"
+    		     data-description="Those are friuts in a cup"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Butterfly"
-          src="images/thumbs/tile6.jpg"
-          data-image="images/big/tile6.jpg"
-          data-description="This is butterfly">
-      </a>
+        <a href="#">
+    		<img alt="Yellow Flowers"
+    		     src="images/thumbs/tile5.jpg"
+    		     data-image="images/big/tile5.jpg"
+    		     data-description="Those are yellow flowers"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Boat"
-          src="images/thumbs/tile7.jpg"
-          data-image="images/big/tile7.jpg"
-          data-description="This is a boat">
-      </a>
+        <a href="#">
+    		<img alt="Butterfly"
+    		     src="images/thumbs/tile6.jpg"
+    		     data-image="images/big/tile6.jpg"
+    		     data-description="This is butterfly"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Woman"
-          src="images/thumbs/tile8.jpg"
-          data-image="images/big/tile8.jpg"
-          data-description="This is a woman">
-      </a>
+        <a href="#">
+    		<img alt="Boat"
+    		     src="images/thumbs/tile7.jpg"
+    		     data-image="images/big/tile7.jpg"
+    		     data-description="This is a boat"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Cup Of Coffee"
-          src="images/thumbs/tile9.jpg"
-          data-image="images/big/tile9.jpg"
-          data-description="This is cup of coffee">
-      </a>
+        <a href="#">
+    		<img alt="Woman"
+    		     src="images/thumbs/tile8.jpg"
+    		     data-image="images/big/tile8.jpg"
+    		     data-description="This is a woman"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Iphone Back"
-          src="images/thumbs/tile10.jpg"
-          data-image="images/big/tile10.jpg"
-          data-description="This is iphone back">
-      </a>
-      <a href="#">
-      <img alt="Lemon Slice"
-          src="images/thumbs/tile1.jpg"
-          data-image="images/big/tile1.jpg"
-          data-description="This is a Lemon Slice">
-      </a>
+        <a href="#">
+    		<img alt="Cup Of Coffee"
+    		     src="images/thumbs/tile9.jpg"
+    		     data-image="images/big/tile9.jpg"
+    		     data-description="This is cup of coffee"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Peppers"
-          src="images/thumbs/tile2.jpg"
-          data-image="images/big/tile2.jpg"
-          data-description="Those are peppers">
-      </a>
+        <a href="#">
+    		<img alt="Iphone Back"
+    		     src="images/thumbs/tile10.jpg"
+    		     data-image="images/big/tile10.jpg"
+    		     data-description="This is iphone back"
+    		     style="display:none">
+    		</a>
+        <a href="#">
+    		<img alt="Lemon Slice"
+    		     src="images/thumbs/tile1.jpg"
+    		     data-image="images/big/tile1.jpg"
+    		     data-description="This is a Lemon Slice"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Keys"
-          src="images/thumbs/tile3.jpg"
-          data-image="images/big/tile3.jpg"
-          data-description="Those are keys">
-      </a>
+        <a href="#">
+    		<img alt="Peppers"
+    		     src="images/thumbs/tile2.jpg"
+    		     data-image="images/big/tile2.jpg"
+    		     data-description="Those are peppers"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Friuts in cup"
-          src="images/thumbs/tile4.jpg"
-          data-image="images/big/tile4.jpg"
-          data-description="Those are friuts in a cup">
-      </a>
+        <a href="#">
+    		<img alt="Keys"
+    		     src="images/thumbs/tile3.jpg"
+    		     data-image="images/big/tile3.jpg"
+    		     data-description="Those are keys"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Yellow Flowers"
-          src="images/thumbs/tile5.jpg"
-          data-image="images/big/tile5.jpg"
-          data-description="Those are yellow flowers">
-      </a>
+        <a href="#">
+    		<img alt="Friuts in cup"
+    		     src="images/thumbs/tile4.jpg"
+    		     data-image="images/big/tile4.jpg"
+    		     data-description="Those are friuts in a cup"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Butterfly"
-          src="images/thumbs/tile6.jpg"
-          data-image="images/big/tile6.jpg"
-          data-description="This is butterfly">
-      </a>
+        <a href="#">
+    		<img alt="Yellow Flowers"
+    		     src="images/thumbs/tile5.jpg"
+    		     data-image="images/big/tile5.jpg"
+    		     data-description="Those are yellow flowers"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Boat"
-          src="images/thumbs/tile7.jpg"
-          data-image="images/big/tile7.jpg"
-          data-description="This is a boat">
-      </a>
+        <a href="#">
+    		<img alt="Butterfly"
+    		     src="images/thumbs/tile6.jpg"
+    		     data-image="images/big/tile6.jpg"
+    		     data-description="This is butterfly"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Woman"
-          src="images/thumbs/tile8.jpg"
-          data-image="images/big/tile8.jpg"
-          data-description="This is a woman">
-      </a>
+        <a href="#">
+    		<img alt="Boat"
+    		     src="images/thumbs/tile7.jpg"
+    		     data-image="images/big/tile7.jpg"
+    		     data-description="This is a boat"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Cup Of Coffee"
-          src="images/thumbs/tile9.jpg"
-          data-image="images/big/tile9.jpg"
-          data-description="This is cup of coffee">
-      </a>
+        <a href="#">
+    		<img alt="Woman"
+    		     src="images/thumbs/tile8.jpg"
+    		     data-image="images/big/tile8.jpg"
+    		     data-description="This is a woman"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Iphone Back"
-          src="images/thumbs/tile10.jpg"
-          data-image="images/big/tile10.jpg"
-          data-description="This is iphone back">
-      </a>
-      <a href="#">
-      <img alt="Lemon Slice"
-          src="images/thumbs/tile1.jpg"
-          data-image="images/big/tile1.jpg"
-          data-description="This is a Lemon Slice">
-      </a>
+        <a href="#">
+    		<img alt="Cup Of Coffee"
+    		     src="images/thumbs/tile9.jpg"
+    		     data-image="images/big/tile9.jpg"
+    		     data-description="This is cup of coffee"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Peppers"
-          src="images/thumbs/tile2.jpg"
-          data-image="images/big/tile2.jpg"
-          data-description="Those are peppers">
-      </a>
+        <a href="#">
+    		<img alt="Iphone Back"
+    		     src="images/thumbs/tile10.jpg"
+    		     data-image="images/big/tile10.jpg"
+    		     data-description="This is iphone back"
+    		     style="display:none">
+    		</a>
+        <a href="#">
+    		<img alt="Lemon Slice"
+    		     src="images/thumbs/tile1.jpg"
+    		     data-image="images/big/tile1.jpg"
+    		     data-description="This is a Lemon Slice"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Keys"
-          src="images/thumbs/tile3.jpg"
-          data-image="images/big/tile3.jpg"
-          data-description="Those are keys">
-      </a>
+        <a href="#">
+    		<img alt="Peppers"
+    		     src="images/thumbs/tile2.jpg"
+    		     data-image="images/big/tile2.jpg"
+    		     data-description="Those are peppers"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Friuts in cup"
-          src="images/thumbs/tile4.jpg"
-          data-image="images/big/tile4.jpg"
-          data-description="Those are friuts in a cup">
-      </a>
+        <a href="#">
+    		<img alt="Keys"
+    		     src="images/thumbs/tile3.jpg"
+    		     data-image="images/big/tile3.jpg"
+    		     data-description="Those are keys"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Yellow Flowers"
-          src="images/thumbs/tile5.jpg"
-          data-image="images/big/tile5.jpg"
-          data-description="Those are yellow flowers">
-      </a>
+        <a href="#">
+    		<img alt="Friuts in cup"
+    		     src="images/thumbs/tile4.jpg"
+    		     data-image="images/big/tile4.jpg"
+    		     data-description="Those are friuts in a cup"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Butterfly"
-          src="images/thumbs/tile6.jpg"
-          data-image="images/big/tile6.jpg"
-          data-description="This is butterfly">
-      </a>
+        <a href="#">
+    		<img alt="Yellow Flowers"
+    		     src="images/thumbs/tile5.jpg"
+    		     data-image="images/big/tile5.jpg"
+    		     data-description="Those are yellow flowers"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Boat"
-          src="images/thumbs/tile7.jpg"
-          data-image="images/big/tile7.jpg"
-          data-description="This is a boat">
-      </a>
+        <a href="#">
+    		<img alt="Butterfly"
+    		     src="images/thumbs/tile6.jpg"
+    		     data-image="images/big/tile6.jpg"
+    		     data-description="This is butterfly"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Woman"
-          src="images/thumbs/tile8.jpg"
-          data-image="images/big/tile8.jpg"
-          data-description="This is a woman">
-      </a>
+        <a href="#">
+    		<img alt="Boat"
+    		     src="images/thumbs/tile7.jpg"
+    		     data-image="images/big/tile7.jpg"
+    		     data-description="This is a boat"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Cup Of Coffee"
-          src="images/thumbs/tile9.jpg"
-          data-image="images/big/tile9.jpg"
-          data-description="This is cup of coffee">
-      </a>
+        <a href="#">
+    		<img alt="Woman"
+    		     src="images/thumbs/tile8.jpg"
+    		     data-image="images/big/tile8.jpg"
+    		     data-description="This is a woman"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Iphone Back"
-          src="images/thumbs/tile10.jpg"
-          data-image="images/big/tile10.jpg"
-          data-description="This is iphone back">
-      </a>
-      <a href="#">
-      <img alt="Lemon Slice"
-          src="images/thumbs/tile1.jpg"
-          data-image="images/big/tile1.jpg"
-          data-description="This is a Lemon Slice">
-      </a>
+        <a href="#">
+    		<img alt="Cup Of Coffee"
+    		     src="images/thumbs/tile9.jpg"
+    		     data-image="images/big/tile9.jpg"
+    		     data-description="This is cup of coffee"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Peppers"
-          src="images/thumbs/tile2.jpg"
-          data-image="images/big/tile2.jpg"
-          data-description="Those are peppers">
-      </a>
+        <a href="#">
+    		<img alt="Iphone Back"
+    		     src="images/thumbs/tile10.jpg"
+    		     data-image="images/big/tile10.jpg"
+    		     data-description="This is iphone back"
+    		     style="display:none">
+    		</a>
+        <a href="#">
+    		<img alt="Lemon Slice"
+    		     src="images/thumbs/tile1.jpg"
+    		     data-image="images/big/tile1.jpg"
+    		     data-description="This is a Lemon Slice"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Keys"
-          src="images/thumbs/tile3.jpg"
-          data-image="images/big/tile3.jpg"
-          data-description="Those are keys">
-      </a>
+        <a href="#">
+    		<img alt="Peppers"
+    		     src="images/thumbs/tile2.jpg"
+    		     data-image="images/big/tile2.jpg"
+    		     data-description="Those are peppers"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Friuts in cup"
-          src="images/thumbs/tile4.jpg"
-          data-image="images/big/tile4.jpg"
-          data-description="Those are friuts in a cup">
-      </a>
+        <a href="#">
+    		<img alt="Keys"
+    		     src="images/thumbs/tile3.jpg"
+    		     data-image="images/big/tile3.jpg"
+    		     data-description="Those are keys"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Yellow Flowers"
-          src="images/thumbs/tile5.jpg"
-          data-image="images/big/tile5.jpg"
-          data-description="Those are yellow flowers">
-      </a>
+        <a href="#">
+    		<img alt="Friuts in cup"
+    		     src="images/thumbs/tile4.jpg"
+    		     data-image="images/big/tile4.jpg"
+    		     data-description="Those are friuts in a cup"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Butterfly"
-          src="images/thumbs/tile6.jpg"
-          data-image="images/big/tile6.jpg"
-          data-description="This is butterfly">
-      </a>
+        <a href="#">
+    		<img alt="Yellow Flowers"
+    		     src="images/thumbs/tile5.jpg"
+    		     data-image="images/big/tile5.jpg"
+    		     data-description="Those are yellow flowers"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Boat"
-          src="images/thumbs/tile7.jpg"
-          data-image="images/big/tile7.jpg"
-          data-description="This is a boat">
-      </a>
+        <a href="#">
+    		<img alt="Butterfly"
+    		     src="images/thumbs/tile6.jpg"
+    		     data-image="images/big/tile6.jpg"
+    		     data-description="This is butterfly"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Woman"
-          src="images/thumbs/tile8.jpg"
-          data-image="images/big/tile8.jpg"
-          data-description="This is a woman">
-      </a>
+        <a href="#">
+    		<img alt="Boat"
+    		     src="images/thumbs/tile7.jpg"
+    		     data-image="images/big/tile7.jpg"
+    		     data-description="This is a boat"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Cup Of Coffee"
-          src="images/thumbs/tile9.jpg"
-          data-image="images/big/tile9.jpg"
-          data-description="This is cup of coffee">
-      </a>
+        <a href="#">
+    		<img alt="Woman"
+    		     src="images/thumbs/tile8.jpg"
+    		     data-image="images/big/tile8.jpg"
+    		     data-description="This is a woman"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Iphone Back"
-          src="images/thumbs/tile10.jpg"
-          data-image="images/big/tile10.jpg"
-          data-description="This is iphone back">
-      </a>
-      <a href="#">
-      <img alt="Lemon Slice"
-          src="images/thumbs/tile1.jpg"
-          data-image="images/big/tile1.jpg"
-          data-description="This is a Lemon Slice">
-      </a>
+        <a href="#">
+    		<img alt="Cup Of Coffee"
+    		     src="images/thumbs/tile9.jpg"
+    		     data-image="images/big/tile9.jpg"
+    		     data-description="This is cup of coffee"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Peppers"
-          src="images/thumbs/tile2.jpg"
-          data-image="images/big/tile2.jpg"
-          data-description="Those are peppers">
-      </a>
+        <a href="#">
+    		<img alt="Iphone Back"
+    		     src="images/thumbs/tile10.jpg"
+    		     data-image="images/big/tile10.jpg"
+    		     data-description="This is iphone back"
+    		     style="display:none">
+    		</a>
+        <a href="#">
+    		<img alt="Lemon Slice"
+    		     src="images/thumbs/tile1.jpg"
+    		     data-image="images/big/tile1.jpg"
+    		     data-description="This is a Lemon Slice"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Keys"
-          src="images/thumbs/tile3.jpg"
-          data-image="images/big/tile3.jpg"
-          data-description="Those are keys">
-      </a>
+        <a href="#">
+    		<img alt="Peppers"
+    		     src="images/thumbs/tile2.jpg"
+    		     data-image="images/big/tile2.jpg"
+    		     data-description="Those are peppers"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Friuts in cup"
-          src="images/thumbs/tile4.jpg"
-          data-image="images/big/tile4.jpg"
-          data-description="Those are friuts in a cup">
-      </a>
+        <a href="#">
+    		<img alt="Keys"
+    		     src="images/thumbs/tile3.jpg"
+    		     data-image="images/big/tile3.jpg"
+    		     data-description="Those are keys"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Yellow Flowers"
-          src="images/thumbs/tile5.jpg"
-          data-image="images/big/tile5.jpg"
-          data-description="Those are yellow flowers">
-      </a>
+        <a href="#">
+    		<img alt="Friuts in cup"
+    		     src="images/thumbs/tile4.jpg"
+    		     data-image="images/big/tile4.jpg"
+    		     data-description="Those are friuts in a cup"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Butterfly"
-          src="images/thumbs/tile6.jpg"
-          data-image="images/big/tile6.jpg"
-          data-description="This is butterfly">
-      </a>
+        <a href="#">
+    		<img alt="Yellow Flowers"
+    		     src="images/thumbs/tile5.jpg"
+    		     data-image="images/big/tile5.jpg"
+    		     data-description="Those are yellow flowers"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Boat"
-          src="images/thumbs/tile7.jpg"
-          data-image="images/big/tile7.jpg"
-          data-description="This is a boat">
-      </a>
+        <a href="#">
+    		<img alt="Butterfly"
+    		     src="images/thumbs/tile6.jpg"
+    		     data-image="images/big/tile6.jpg"
+    		     data-description="This is butterfly"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Woman"
-          src="images/thumbs/tile8.jpg"
-          data-image="images/big/tile8.jpg"
-          data-description="This is a woman">
-      </a>
+        <a href="#">
+    		<img alt="Boat"
+    		     src="images/thumbs/tile7.jpg"
+    		     data-image="images/big/tile7.jpg"
+    		     data-description="This is a boat"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Cup Of Coffee"
-          src="images/thumbs/tile9.jpg"
-          data-image="images/big/tile9.jpg"
-          data-description="This is cup of coffee">
-      </a>
+        <a href="#">
+    		<img alt="Woman"
+    		     src="images/thumbs/tile8.jpg"
+    		     data-image="images/big/tile8.jpg"
+    		     data-description="This is a woman"
+    		     style="display:none">
+    		</a>
 
-      <a href="#">
-      <img alt="Iphone Back"
-          src="images/thumbs/tile10.jpg"
-          data-image="images/big/tile10.jpg"
-          data-description="This is iphone back">
-      </a>
+        <a href="#">
+    		<img alt="Cup Of Coffee"
+    		     src="images/thumbs/tile9.jpg"
+    		     data-image="images/big/tile9.jpg"
+    		     data-description="This is cup of coffee"
+    		     style="display:none">
+    		</a>
 
-        
+        <a href="#">
+    		<img alt="Iphone Back"
+    		     src="images/thumbs/tile10.jpg"
+    		     data-image="images/big/tile10.jpg"
+    		     data-description="This is iphone back"
+    		     style="display:none">
+    		</a>
+      </div>
+
     </div>
-  
-        </div>
     </div>
   </section>
-<!-- GALLERY END -->
+  <!-- GALLERY END -->
 
 
   <!-- Kontakt Section -->
@@ -592,24 +672,28 @@
     </div>
   </section>
 
-  <!-- Bootstrap core JavaScript -->
-
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
-  <script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
-  <script type="text/javascript" src="js/jquery.slitslider.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery/jquery-2.2.4.min.js"></script>
+  <script src="js/jquery.ba-cond.min.js"></script>
+  <script src="js/jquery.slitslider.js"></script>
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/unitegallery.min.js"></script>
+	<script src="js/ug-theme-tiles.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	
 
-
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	
+	<script src="https://use.fontawesome.com/aa95071b26.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
   <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.min.js"></script>
-  <script src="js/script.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/index.js"></script>
 
 </body>
 
