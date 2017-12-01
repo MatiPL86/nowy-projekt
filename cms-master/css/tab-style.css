@@ -40,7 +40,9 @@
   display: none;
 }
 #body .out-wrap #tabs li {
+  margin-top: 15px;
   width: auto;
+  height: 50px;
   white-space: nowrap;
   flex: 1;
 }
@@ -51,6 +53,8 @@
   margin: 0;
   color: #fff;
   text-transform: uppercase;
+  padding: 5px;
+  font-size: 120%;
 }
 #body .out-wrap #tabs li a:hover {
   background: #ddd;
