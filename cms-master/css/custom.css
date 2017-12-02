@@ -100,10 +100,19 @@ aside p1 {
 
   /* button info END*/
 
-/* DANE */
+/* sekcja-DANE */
+
+#dane {
+    width: 400px;
+}
+
 #dane ul {
     list-style-type: none;
     text-align: left;
     line-height: 2.1;
     font-size: 120%;
+}
+
+.one {
+    line-height: 1.4;
 }
