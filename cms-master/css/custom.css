@@ -105,6 +105,9 @@ aside p1 {
 #dane {
     width: 400px;
 }
+.fa {
+    padding-right: 14px;
+}
 
 #dane ul {
     list-style-type: none;
