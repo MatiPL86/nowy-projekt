@@ -141,12 +141,11 @@ aside p1 {
     text-transform: none;
 }
 
-ul.bottom {
+ul.bottom  {
     text-align: left;
     margin-top: 10px !important;
-    line-height: 0.2 !important;
+    line-height: 0.3;
     list-style-type: none;
-    
 }
 
 /* section-Raty-end */
