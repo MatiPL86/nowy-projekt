@@ -119,3 +119,8 @@ aside p1 {
 .one {
     line-height: 1.4;
 }
+
+#map {
+    height: 400px;
+    width: 100%;
+}

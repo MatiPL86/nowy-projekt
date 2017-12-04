@@ -1,3 +1,15 @@
+
+function initMap() {
+		var options = {
+		zoom:8,
+		center:{lat:52.197598, lng:22.261806}
+		}
+		var map = new
+		google.maps.Map(document.getElementById('map'), options);
+	}
+
+
+
 $(function() {
 
   $("#gallery").unitegallery({
