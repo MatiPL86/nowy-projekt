@@ -124,3 +124,28 @@ aside p1 {
     height: 400px;
     width: 100%;
 }
+
+/* section-Raty */
+
+#raty ul li {
+    margin-left: 35px;
+    padding-bottom: 20px;
+    text-align: left;
+    line-height: 1.2;
+}
+
+#raty h3 {
+    margin-top: 15px;
+    text-align: left;
+    color: red;
+    text-transform: none;
+}
+
+aside p3 {
+    margin-top: 10px;
+    text-align: left;
+    line-height: 0.5;
+    
+}
+
+/* section-Raty-end */
