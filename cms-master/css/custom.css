@@ -119,6 +119,24 @@ aside p1 {
 
 /* button info END*/
 
+/* section O Nas*/
+
+.intro h1 {
+  text-align: left;
+  font-size: 45px;
+}
+
+.intro p {
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.intro img {
+  display: block;
+  float: right;
+  margin-left: 55px;
+}
+
 /* sekcja-DANE */
 
 #dane {
