@@ -202,3 +202,22 @@ ul.bottom {
   text-align: left;
   line-height: 1.3;
 }
+
+
+/*Kontakt*/
+ #form {
+   width: 400px;
+   float: left;
+ }
+
+ #form input {
+   width: 100%;
+ }
+
+ #contact-message {
+   width: 100%;
+ }
+
+ #contact-submit {
+   float: right;
+ }
