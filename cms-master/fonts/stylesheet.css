@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('subset-Lato-Light.eot');
+    src: url('subset-Lato-Light.eot?#iefix') format('embedded-opentype'),
+        url('subset-Lato-Light.woff') format('woff'),
+        url('subset-Lato-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('subset-Lato-Medium.eot');
+    src: url('subset-Lato-Medium.eot?#iefix') format('embedded-opentype'),
+        url('subset-Lato-Medium.woff') format('woff'),
+        url('subset-Lato-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('subset-Lato-Thin.eot');
+    src: url('subset-Lato-Thin.eot?#iefix') format('embedded-opentype'),
+        url('subset-Lato-Thin.woff') format('woff'),
+        url('subset-Lato-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('subset-Lato-Black.eot');
+    src: url('subset-Lato-Black.eot?#iefix') format('embedded-opentype'),
+        url('subset-Lato-Black.woff') format('woff'),
+        url('subset-Lato-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+body, h1, h2, h3, h4, h5, h6, a, p, span {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
