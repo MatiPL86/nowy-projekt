@@ -32,7 +32,9 @@
 	color: #AAA;
 }
 
-
+.container {
+	height: 90%;
+}
 
 
 @CHARSET "ISO-8859-1";
